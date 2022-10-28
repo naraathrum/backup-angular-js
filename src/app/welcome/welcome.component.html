@@ -1,0 +1,21 @@
+<h1>Welcome!</h1>
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+       <h2>Home Sweet Home</h2>
+       <p>Todo list adalah list yang akan dicapai dikemudian hari oleh si pelaku</p>
+    </div>
+  </div>
+<div class="container">
+    You can manage your todos <a routerLink="/todos">here</a>
+</div>
+
+<div class="container">
+  Click here to get a customized melcome message
+  <button (click)="getWelcomeMessage()" class="btn btn-success">Get Welcome Message</button>
+</div>
+
+<div class="container" *ngIf="welcomeMessageFromService">
+  <H2>Your customized Welcome Message</H2>
+  {{welcomeMessageFromService}}
+</div> 

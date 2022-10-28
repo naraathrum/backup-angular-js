@@ -1,0 +1,12 @@
+.jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+  } 
+  .jumbotron {
+    padding: 90px;
+    background-image: linear-gradient(#A9A9A9, #DCDCDC, #F8F8FF );
+    text-align: center;
+    font-size: 20px;
+    color: #292929;
+  }
